@@ -1,0 +1,45 @@
+.card-container {
+    background: #00b533;
+    background: linear-gradient(90deg, rgba(0, 181, 51, 1) 0%, rgba(9, 121, 18, 1) 50%, rgba(8, 99, 6, 1) 100%);
+    border-radius: 5%;
+    padding: 40px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 15px;
+}
+
+.circulo{
+    width: 150px;
+  height: 150px;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #000000;
+
+}
+
+.botao-conversar{
+    border-radius:80px;
+    padding: 10px;
+}
+
+.linha-contato{
+    padding: 10px;
+}
+
+.pgr-mirim{
+    border-bottom: 4px dotted cornsilk;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
